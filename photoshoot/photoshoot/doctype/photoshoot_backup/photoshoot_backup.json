@@ -1,0 +1,78 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2021-02-04 22:14:35.924951",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date__time",
+  "naming_series",
+  "view",
+  "column_break_3",
+  "fitting_centre",
+  "garment",
+  "photo_attachment"
+ ],
+ "fields": [
+  {
+   "default": "Now",
+   "fieldname": "date__time",
+   "fieldtype": "Datetime",
+   "label": "Date / Time"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "naming series",
+   "options": "FCR-.YYYY.-"
+  },
+  {
+   "fieldname": "fitting_centre",
+   "fieldtype": "Link",
+   "label": "Fitting Centre",
+   "options": "Fitting Centre"
+  },
+  {
+   "fieldname": "garment",
+   "fieldtype": "Data",
+   "label": "Garment"
+  },
+  {
+   "fieldname": "view",
+   "fieldtype": "Data",
+   "label": "View"
+  },
+  {
+   "fieldname": "photo_attachment",
+   "fieldtype": "Image",
+   "label": "Photo Attachment"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "modified": "2021-02-04 22:18:01.854391",
+ "modified_by": "Administrator",
+ "module": "Photoshoot",
+ "name": "Photoshoot Backup",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include photoshoot *.css
+recursive-include photoshoot *.csv
+recursive-include photoshoot *.html
+recursive-include photoshoot *.ico
+recursive-include photoshoot *.js
+recursive-include photoshoot *.json
+recursive-include photoshoot *.md
+recursive-include photoshoot *.png
+recursive-include photoshoot *.py
+recursive-include photoshoot *.svg
+recursive-include photoshoot *.txt
+recursive-exclude photoshoot *.pyc

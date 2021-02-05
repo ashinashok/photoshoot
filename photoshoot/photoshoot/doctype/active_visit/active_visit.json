@@ -1,0 +1,58 @@
+{
+ "autoname": "Fitting Centre",
+ "creation": "2021-02-04 22:21:01.023067",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fitting_centre",
+  "visit_no",
+  "column_break_3",
+  "date__time"
+ ],
+ "fields": [
+  {
+   "fieldname": "fitting_centre",
+   "fieldtype": "Link",
+   "label": "Fitting Centre",
+   "options": "Fitting Centre"
+  },
+  {
+   "fieldname": "visit_no",
+   "fieldtype": "Int",
+   "label": "Visit No"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date__time",
+   "fieldtype": "Datetime",
+   "label": "Date & Time"
+  }
+ ],
+ "modified": "2021-02-04 22:21:17.963080",
+ "modified_by": "Administrator",
+ "module": "Photoshoot",
+ "name": "Active Visit",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
